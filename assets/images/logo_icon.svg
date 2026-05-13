@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#08B981;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="#0F1419" stroke="url(#gradient)" stroke-width="2"/>
+
+  <!-- Outer Ring -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="url(#gradient)" stroke-width="1" opacity="0.3"/>
+
+  <!-- Letter T -->
+  <text x="65" y="140" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="url(#gradient)">T</text>
+
+  <!-- Letter P -->
+  <text x="120" y="140" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="url(#gradient)">P</text>
+
+  <!-- Tech Lines - Left -->
+  <line x1="30" y1="50" x2="50" y2="50" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+  <line x1="30" y1="60" x2="45" y2="60" stroke="#08B981" stroke-width="2" opacity="0.6"/>
+
+  <!-- Tech Lines - Right -->
+  <line x1="150" y1="50" x2="170" y2="50" stroke="#6366F1" stroke-width="2" opacity="0.6"/>
+  <line x1="155" y1="60" x2="170" y2="60" stroke="#08B981" stroke-width="2" opacity="0.6"/>
+
+  <!-- Tech Dots -->
+  <circle cx="40" cy="160" r="3" fill="#6366F1" opacity="0.7"/>
+  <circle cx="100" cy="170" r="3" fill="#08B981" opacity="0.7"/>
+  <circle cx="160" cy="160" r="3" fill="#6366F1" opacity="0.7"/>
+</svg>
